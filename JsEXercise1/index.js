@@ -31,3 +31,56 @@
 
 //Q4. Write a function that takes two numbers as arguments and returns the larger number.
 
+// function getLarger(num1,num2){
+//     if(num1>num2){
+//         return num1;
+//     }else{
+//         return num2;
+//     }
+// }
+// console.log(getLarger(18,48));
+
+//Q5. Write a program that displays a string in reverse order.
+
+// function reverseString(str){
+//     let reversedString = str.split("").reverse().join("");  
+//     return reversedString;
+// }
+// console.log(reverseString("Sakshi"));
+
+//Q6. Write a program that takes a number and checks whether it is positive, negative, or zero.
+
+// function checkNumber(num){
+//     if(num>0){
+//         console.log("positive");
+//     }else if(num<0){
+//         console.log("Negative");
+//     }else{
+//         console.log("Zero");
+//     }
+// }
+// checkNumber(0);
+
+//Q7. Write a program that takes a number and prints the multiplication table for that number.
+
+// function multiplicationTable(num){
+//     for(let i=1; i<=10; i++){
+//         let table = num*i;
+//         console.log(`${num} * ${i} = ${table}`);
+//     }
+// }
+// multiplicationTable(5);
+
+//Q8. Write a program that takes a number and calculates the sum of all numbers from 1 to that number.
+
+// function sumOfNumbers(num){
+//     let sum = 0;
+//     for(let i=1; i<=num; i++){
+//         sum = sum+i;
+//     }
+//     return sum;
+// }
+// console.log(sumOfNumbers(4));
+
+//Q9. Write a program that takes a string and prints out the number of vowels in the string.
+
