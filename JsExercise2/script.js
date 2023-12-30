@@ -96,4 +96,20 @@
 // }
 // console.log(filterLongStrings(["apple","banana","kiwi","watermelon","orange"]));
 
-//Q8. 
+//Q8. Write a function that takes an array of strings as an argument and returns a new array with only the strings that have a length greater than 5.
+
+function getKeys(obj){
+      const keys = Object.keys(obj);
+
+      return keys;
+}
+
+const person = {
+    name: "John",
+    age: 30,
+    gender: "male",
+    city: "New York",
+};
+
+console.log(getKeys(person));
+console.log(getKeys({}));
