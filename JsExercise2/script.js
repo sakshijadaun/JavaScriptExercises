@@ -81,3 +81,19 @@
 // }
 // const numbers = [1,2,3,4];
 // console.log(sumOfNumbers(numbers));
+
+//Q7. Write a function that takes an array of strings as an argument and returns a new array with only the strings that have a length greater than 5.
+
+// function filterLongStrings(arr){
+//     let filteredArr = [];
+
+//     for(let i=0; i<arr.length; i++){
+//         if(arr[i].length>5){
+//             filteredArr.push(arr[i]);
+//         }
+//     }
+//     return filteredArr;
+// }
+// console.log(filterLongStrings(["apple","banana","kiwi","watermelon","orange"]));
+
+//Q8. 
